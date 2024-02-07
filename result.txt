@@ -1,0 +1,11 @@
+FOR i <-- 5 TO 6 STEP -2
+    IF i = 2 THEN
+        OUTPUT "hello"
+    ELSE
+        IF i = 3 THEN
+            OUTPUT "bye"
+        ELSE
+            OUTPUT "lol"
+        ENDIF
+    ENDIF
+ENDFOR
